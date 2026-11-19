@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+<body>
+<header class="header">
+    <a href="#about" class="logo"><span>Sandeep Paswan</span> </a>
+    <ul class="nav-link">
+        <li>
+            <a href="#about">About</a>
+        </li>
+        <li>
+            <a href="#experience">Experience</a>
+        </li>
+        <li>
+            <a href="#projects">Projects</a>
+        </li><li>
+            <a href="#contact">Contact</a>
+        </li>
+    </ul>
+    <i class="fa-solid fa-bars" id="menu-icon"></i>
+    <a href="https://github.com/sandeeppaswan" target="_blank" class="visit-btn">Visit Github</a>
+
+</header>
+
+
+<section id="about" class="about">
+    <div class="about-container">
+        <img src="image/sandeep pic.png" alt>
+        <div class="info-box">
+            <div class="text">
+                <h3>Hi,I'm</h3>
+                <h1>Sandeep Paswan</h1>
+                <span>Backend Developer</span>
+            </div>
+            <div class="btn-group">
+                 <a href="resume.pdf" download="Sandeep_Kumar_Paswan_CV.pdf" class="btn">Download CV</a>
+
+                    <a href="tel:+917362035466" class="btn">Contact</a>
+             </div>
+
+            <div class="socials">
+                <a href="https://github.com/sandeeppaswan" target="_blank">
+                <i class="fa-brands fa-github"></i>
+                    </a>
+                <a href="https://www.linkedin.com/in/sandeep-kumar-paswan-634889320/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+                </a>
+
+                <a href="https://hub.docker.com/u/sandeep2026paswan" target="_blank">
+                    <i class="fa-brands fa-docker"></i>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<section id="experience" class="experience">
+    <h2 class="section-title">Experience</h2>
+    <div class="experience-info">
+        <div class="grid">
+            <div class="grid-card">
+                <i class="fa-solid fa-code"></i>
+                <span>Java & OOps</span>
+                <h3>Fresher</h3>
+                <p>Built modular Java applications using OOP principles, design patterns, Lambda expressions, and Streams API.</p>
+            </div>
+            <div class="grid-card">
+                <i class="fa-solid fa-laptop"></i>
+                <span>Java Developer</span>
+                <h3>Fresher</h3>
+                <p>Developed high-performance business logic crafting maintainable Java software powered by Maven automation and structured exception handling.</p>
+            </div>
+            <div class="grid-card">
+                <i class="fa-solid fa-file-code"></i>
+                <span>Backend Developer</span>
+                <h3>Fresher</h3>
+                <p>Engineered secure Spring Boot REST APIs featuring JWT authentication, role-based access, and relational databases.</p>
+            </div>
+            <div class="grid-card">
+                <i class="fa-solid fa-list"></i>
+                <span>System Design</span>
+                <h3>Fresher</h3>
+                <p>Containerized and deployed portable Java services using Docker, minimal JREs, and secure environment configurations.</p>
+            </div>
+        </div>
+        <img src="image/sandeep pic.png" alt="">
+    </div>
+</section>
+
+<section id="projects" class="projects">
+    <h2 class="section-title">Recent Projects</h2>
+    <div class="project-grid">
+    <div class="project-card">
+        <img src="image/fitness.jpg" alt="">
+        <h3>Fitness Monolith</h3>
+        <p>Engineered a production-grade monolithic backend system designed to process user activity telemetry,
+            compute complex health metrics, and generate dynamic recommendations. Secured critical microservice
+            endpoints by deploying Spring Security with stateless JWT role-based access control (RBAC). Modeled
+            optimized relational ER database schemas via Hibernate/JPA and fully containerized the runtime environment
+            using Docker.</p>
+    <div class="btn-group">
+        <a href="https://hub.docker.com/repository/docker/sandeep2026paswan/fitness-mono/general" target="_blank" class="btn">Live Demo</a>
+        <a href="https://github.com/sandeeppaswan/FitnessTracke" target="_blank" class="btn">Github Repo</a>
+    </div>
+    </div>
+
+    <div class="project-card">
+        <img src="image/image_a8d299a7.jpg" alt="">
+        <h3>Java Text Summarizer Assistant</h3>
+        <p>Architected a robust Spring Boot REST API that seamlessly integrates Google's Gemini AI to
+            automate advanced research workflows. Designed high-performance request/response data models
+            to efficiently serialize and parse deeply nested JSON payloads. Enforced a clean MVC design pattern
+            with extensive JUnit and Mockito test coverage to guarantee 100% API payload handling stability.</p>
+        <div class="btn-group">
+            <a href="https://hub.docker.com/repository/docker/sandeep2026paswan/summerize-assistant/general" target="_blank" class="btn">Live Demo</a>
+            <a href="https://github.com/sandeeppaswan/Java-Text-Summarizer-Api" target="_blank" class="btn">Github Repo</a>
+        </div>
+    </div>
+
+    <div class="project-card">
+        <img src="image/protfolio.jpg" alt="">
+        <h3>My Portfolio</h3>
+        <p>Designed and engineered a modern, mobile-first developer portfolio using semantic HTML5,
+            CSS3, and vanilla JavaScript. Leveraged CSS Grid, Flexbox, and custom media queries to
+            deliver a fluid, responsive user experience across desktop, tablet, and mobile viewports,
+            complete with interactive navigation and serverless contact form integration.</p>
+        <div class="btn-group">
+            <a href="https://hub.docker.com/repository/docker/sandeep2026paswan/my-portfolio/general" target="_blank" class="btn">Live Demo</a>
+            <a href="https://github.com/sandeeppaswan/My-Portfolio" target="_blank" class="btn">Github Repo</a>
+        </div>
+    </div>
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <form id="contact-form" class="input-box">
+        <h2 class="section-title">Contact Me</h2>
+
+        <input type="hidden" name="access_key" value="b29fb73b-7d8d-4814-b9cc-eb46a19ea4e9">
+
+        <div class="input">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <i class="fa-solid fa-user"></i>
+        </div>
+
+        <div class="input">
+            <input type="email" name="email" placeholder="Your Email Address" required>
+            <i class="fa-solid fa-envelope"></i>
+        </div>
+
+        <div class="input">
+            <input type="text" name="message" placeholder="Write your message here..." required>
+            <i class="fa-solid fa-message"></i>
+        </div>
+
+        <button type="submit" class="btn" id="submit-btn">Submit</button>
+    </form>
+</section>
+
+
+
+<footer>
+    <ul>
+        <li>
+            <a href="#about">About</a>
+        </li>
+
+        <li>
+            <a href="#experience">Experience</a>
+        </li>
+
+        <li>
+            <a href="#projects">Projects</a>
+        </li>
+
+        <li>
+            <a href="#Contact">Contact</a>
+        </li>
+    </ul>
+    <p class="copyright">@All Rights Reserved | Sandeep Kumar Paswan</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
